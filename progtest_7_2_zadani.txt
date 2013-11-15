@@ -1,0 +1,7 @@
+Kombinaèní èísla
+
+Realizujte program, který spoèítá kombinaèní èíslo.
+Vstupem programu jsou dvì celá èísla, n a k, oddìlená mezerou.
+Výstupem programu je hodnota kombinaèního èísla n nad k vypoèítaná podle vzorce n! / (k! * (n - k)!). Na konci výstupu je vždy prázdný øádek.
+Program kontroluje vstupy dle platných pravidel pro výpoèet kombinaèního èísla.
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

@@ -1,0 +1,13 @@
+Rodná èísla
+
+Realizujte program, který pro zadaný øetìzec zjistí, zda øetìzec mùže pøedstavovat rodné èíslo.
+Vstupem programu je libovolný øetìzec.
+Výstupem programu je informace o tom, zda øetìzec mùže pøedstavovat rodné èíslo. Na konci výstupu je vždy odøádkování.
+Rodné èíslo program urèuje podle následujících kritérií:
+rodná èísla jsou vždy tvoøena šesti ciframi data narození (rok, mìsíc, den), znakem lomítko a ètyømístným èíslem,
+rodné èíslo je dìlitelné 11 (napø. rodné èíslo 736028/5163 se pøepíše jako 7360285163, což je dìlitelné 11),
+pohlaví osoby je rozlišeno tím, že je k èíslu mìsíce pøipoèteno 50,
+prvních 6 èíslic musí tvoøit platné datum,
+pøestupný únor je tehdy, když dvojèíslí roku je dìlitelné èíslem 4,
+ostatní odlišnosti øetìzce od rodného èísla program rozpozná a øetìzec zamítne. Zvláštní situace, kdy mohou mít muži pøièteno k mìsíci 20 a ženy 70, ignorujte jako neplatné rodné èíslo.
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

@@ -1,0 +1,33 @@
+Soubory s èísly
+
+Realizujte funkci (ne celý program, pouze jednu funkci), která naète èísla ze zadaného souboru, vytvoøí nový soubor a do vytvoøeného nového souboru zapíše nejprve èísla sudá a za nì èísla lichá.
+Funkce bude mít rozhraní:
+
+int evenOdd ( const char * srcFileName, const char * dstFileName );
+srcFileName
+je øetìzec se jménem zdrojového souboru. Soubor obsahuje èísla zapsaná v desítkové podobì, na øádce je vždy jedno èíslo.
+dstFileName
+je øetìzec se jménem cílového souboru. Funkce do tohoto souboru zapíše èísla ètená ze zdrojového souboru, ale nejprve èísla sudá (zachová poøadí ve kterém byla ve zdrojovém souboru) a za nì pak èísla lichá (opìt zachová poøadí ve zdrojovém souboru).
+návratová hodnota
+funkce vrací hodnotu 1 pro úspìch (soubory se podaøilo zpracovat) nebo 0 (chyba pøi práci se soubory).
+Dodržte pøesnì rozhraní funkce evenOdd. Do odevzdávaného zdrojového souboru vložte Vaší implementovanou funkci evenOdd a pøípadné další Vaše podpùrné funkce, které pro správný chod evenOdd potøebujete. Vkládání hlavièkových souborù a funkci main ponechte v bloku podmínìného pøekladu, jak je ukázáno v následující ukázce. Doporuèujeme zkopírovat si šablonu do Vašeho projektu a doplnit pouze požadované implementace funkcí.
+
+#ifndef __PROGTEST__
+#include <stdio.h>
+#include <stdlib.h>
+#endif /* __PROGTEST__ */
+
+/* Vase pomocne funkce (jsou-li potreba) */
+
+int evenOdd ( const char * srcFileName, const char * dstFileName )
+ { 
+   /* implementace */
+ }
+
+#ifndef __PROGTEST__
+int main ( int argc, char * argv [] )
+ {
+   /* Vase testy */
+   return 0;
+ }
+#endif /* __PROGTEST__ */

@@ -1,0 +1,5 @@
+Hello world
+
+Realizujte program, který vypíše na obrazovku text "Hello world!" a odøádkování. Text bude zobrazen bez uvozovek.
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázce. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu.
+Váš program bude spouštìn v omezeném testovacím prostøedí. Je omezen dobou bìhu (limit je vidìt v logu referenèního øešení) a dále je omezena i velikost dostupné pamìti (ale tato úloha by ani s jedním omezením nemìla mít problém). Testovací prostøedí dále zakazuje používat nìkteré "nebezpeèné funkce" -- funkce pro spouštìní programu, pro práci se sítí, ... Pokud jsou tyto funkce použité, program se nespustí. Možná ve svém programu používáte volání:

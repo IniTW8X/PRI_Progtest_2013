@@ -1,0 +1,13 @@
+Porovnávání øetìzcù
+
+Realizujte program, který pro tøi slova vypíše poèet znakù, které obsahují, a porovná každé s každým. Vypíše, zda se slova rovnají èi nikoliv.
+Vstupem programu jsou tøi øetìzce slovo1, slovo2 a slovo3.
+Výstupem programu jsou následující informace v poøadí dle ukázek:
+informace, zda se shoduje slovo1 a slovo2
+informace, zda se shoduje slovo1 a slovo3
+informace, zda se shoduje slovo2 a slovo3
+poèet znakù ve slovo1
+poèet znakù ve slovo2
+poèet znakù ve slovo3
+Program detekuje chybu, pokud na vstupu nejsou zadaná požadovaná tøi slova. V takovém pøípadì vypíše chybové hlášení dle ukázky a ukonèí se. Chybové hlášení vypisujte na standardní výstup (nevypisujte jej na standardní chybový výstup).
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

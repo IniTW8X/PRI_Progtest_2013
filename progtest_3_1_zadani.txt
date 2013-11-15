@@ -1,0 +1,7 @@
+Písmena
+
+Realizujte program, který v zadaném vstupním øetìzci zamìní malá písmena za velká, velká písmena za malá a èíslice nahradí malými písmeny.
+Vstupem programu je libovolný jednoslovný øetìzec. Øetìzec má nejvýše 80 znakù.
+Výstupem programu je øetìzec obsahující velká (malá) písmena tam, kde vstupní øetìzec mìl písmena malá (velká), pøípadnì malá písmena namísto èíslic. Hodnota èíslice odpovídá poøadí písmene v anglické abecedì, poèítáno od nuly. 0 je tedy pøevedena na znak 'a', 1 na znak 'b' atd.
+Program ignoruje znaky jiné než malá a velká písmena a èíslice a na výstup je nevypisuje.
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

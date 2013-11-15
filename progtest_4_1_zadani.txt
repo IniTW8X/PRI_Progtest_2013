@@ -1,0 +1,7 @@
+Souèet èísel (cyklus 1)
+
+Realizujte program, kterı bude sèítat zadaná desetinná èísla. Po zadání èísla 1000 program naèítání vstupu ukonèí, zobrazí souèet a skonèí.
+Vstupem programu jsou desetinná èísla.
+Vıstupem programu je souèet zadanıch èísel, souèet zahrnuje i poslední èíslo 1000. Za vıpisem je odøádkování (\n).
+Program detekuje chybu, zobrazí chybové hlášení dle ukázky a ukonèí se, pokud jsou na vstupu neèíselné hodnoty. Chybové hlášení vypisujte na standardní vıstup (nevypisujte jej na standardní chybovı vıstup).
+Dodrte pøesnì formát všech vıpisù. Vıpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, kterı kontroluje vıpis na pøesnou shodu. Pokud se vıpis Vašeho programu liší od referenèního vıstupu, je Vaše odpovìï povaovaná za nesprávnou. Záleí i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem vıstupu (a za pøípadnım chybovım hlášením). Vyuijte pøiloenı archiv s testovacími vstupy a vıstupy a pøeètìte si sekci FAQ, jak vyuít pøesmìrování vstupù/vıstupù k testování Vašeho programu.

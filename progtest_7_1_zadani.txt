@@ -1,0 +1,7 @@
+Hexadecimální èíslo
+
+Realizujte program, který pøevede hexadecimální èíslo na decimální.
+Vstupem programu je jednoslovný øetìzec pøedstavující hexadecimální èíslo. Písmena hexadecimálního zápisu mohou být velká i malá. Bezprostøednì za vlastním èíslem je odøádkování.
+Výstupem programu je decimální hodnota vstupního èísla, ukonèená znakem pro odøádkování.
+Pokud je vstupní øetìzec nesprávný (obsahuje neplatné cifry, nebo za èíslem nenásleduje odøádkování, program vypíše chybové hlášení podle ukázky a ukonèí se.
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

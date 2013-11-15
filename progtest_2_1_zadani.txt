@@ -1,0 +1,9 @@
+Kvadratická rovnice (výrazy)
+
+Realizujte program, který ze zadaných parametrù a, b a c vypoèítá koøeny kvadratické rovnice.
+Vstupem programu jsou tøi desetinná èísla reprezentující parametry kvadratické rovnice a, b a c.
+Výstupem programu jsou následující informace v poøadí dle ukázek:
+koøen kvadratické rovnice x1
+koøen kvadratické rovnice x2
+Program detekuje chybu, zobrazí chybové hlášení dle ukázky a ukonèí se, pokud jsou na vstupu neèíselné hodnoty nebo pokud strany nejsou kladná desetinná èísla. Chybové hlášení vypisujte na standardní výstup (nevypisujte jej na standardní chybový výstup).
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

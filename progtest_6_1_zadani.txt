@@ -1,0 +1,6 @@
+Binární èíslo
+
+Pøevádìjte èíslo ve dvojkové soustavì do soustavy desítkové. Program ète vstupní øetìzce jednièek a nul, tvoøící dvojkové (binární) èíslo a do výstupu zapíše jeho desítkový ekvivalent (celé èíslo).
+Vstupem programu je posloupnost znakù 0 a 1, pøedstavující normální zápis dvojkového èísla, tj. zapsané zleva doprava, nejvyšší øád je vlevo, nejnižší vpravo. Vstup je ukonèen koncem øádku. Každý øádek vstupu obsahuje právì jedno dvojkové èíslo. Pokud jsou v øetìzci jiné znaky, ohlásí program chybu a ukonèí se.
+Výstupem programu je desítková celoèíselná hodnota binárního èísla daného vstupní sekvencí, nebo hlášení o chybném vstupu.
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

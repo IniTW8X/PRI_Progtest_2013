@@ -1,0 +1,9 @@
+Prvoèísla
+
+Napište program, který vypíše všechna prvoèísla ze zvoleného rozsahu.
+Na vstupu jsou dvì celá kladná èísla udávající zaèátek a konec intervalu (vèetnì).
+Na výstupu je seznam nalezených prvoèísel, každé na novém øádku.
+Program musí kontrolovat správnost vstupu. Pokud je vstup nesprávný, zobrazte chybovou hlášku a ukonèete program. Za chybu považujte:
+neèíselné vstupy,
+dolní mez vyšší než horní mez.
+Uvažujte pouze meze menší než 2000000000, tedy pro ukládání hodnot použijte datový typ int.

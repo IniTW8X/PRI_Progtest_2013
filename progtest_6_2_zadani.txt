@@ -1,0 +1,13 @@
+Brigádníkùv plat
+
+Hrad má urèitou návštìvnost. Na hradu je pro návštìvníky k dispozici atrakce placená 50 korunami. 7% návštìvníkù hradu tuto atrakci využije a zaplatí. Atrakci obsluhuje brigádník, jehož plat je dán denním obratem na atrakci:
+0 - 1950 Kè.......7O Kè/h,
+2000 - 2450 Kè....80 Kè/h,
+2500 - 2950 Kè....90 Kè/h,
+3000 - 3450 Kè....100 Kè/h,
+3500 a více Kè....110 Kè/h.
+Brigádník pracuje 8 hodin dennì. Napište program, který pro zadaný poèet návštìvníkù hradu vypoète kolik si brigádník vydìlá.
+Vstupem programu je pøirozené èíslo, pøedstavující poèet návštìvníkù hradu.
+Výstupem programu je odhadovaný plat brigádníka. Je-li zapotøebí zaokrouhlování, zaokrouhlujte vždy dolù.
+Program kontroluje správnost vstupù. Požadavky na správnost vstupu z hlediska poètu zákazníkù jsou zøejmé. Na libovolné neshody s požadavky na správnost program zareaguje výpisem øetìzce "Nesprávný vstup." a ukonèením.
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

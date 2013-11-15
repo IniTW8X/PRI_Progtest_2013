@@ -1,0 +1,9 @@
+Trojúhelník
+
+Úkolem je realizovat program, který rozhodne o existenci trojúhelníku.
+Vstupem programu jsou tøi desetinná èísla - délky stran trojúhelníku.
+Výstupem programu je rozhodnutí, zda trojelník existuje. Dále, pokud trojúhelník existuje, program vypíše jeho obsah.
+Program musí poznat nesprávné vstupy. Pokud je vstup nesprávný, vypíše chybové hlášení a ukonèí se. Za chybný vstup je považováno:
+neèíselné hodnoty délek stran,
+záporné nebo nulové délky stran.
+Pro øešení lze použít trojúhelníkovou nerovnost a/nebo Heronùv vzorec. Pokud výraz pod odmocninou v Heronovì vzorci vychází záporný nebo nulový, trojúhelník neexistuje.

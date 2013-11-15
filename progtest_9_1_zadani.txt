@@ -1,0 +1,10 @@
+Heslo
+
+Realizujte program, který pro zadané heslo zjistí, zda splòuje následující podmínky:
+musí obsahovat nejménì 5 znakù,
+musí obsahovat alespoò jedno malé nebo velké písmeno,
+musí obsahovat alespoò jednu èíslici,
+musí obsahovat alespoò jeden znak, který není èíslicí nebo písmenem.
+Vstupem programu je jednoslovný øetìzec (øetìzec neobsahující mezery, konce øádkù ani jiné bílé znaky).
+Výstupem programu je informace o tom, zda vstupní øetìzec splòuje podmínky. Na konci výstupu je odøádkování.
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

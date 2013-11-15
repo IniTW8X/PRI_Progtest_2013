@@ -1,0 +1,10 @@
+Faktorizace
+
+Realizujte program, který faktorizuje (rozloží) zadané desetinné èíslo na dvì desetinná èísla. Rovnìž spoèítá chybu faktorizace.
+Vstupem programu je jedno nezáporné a dvì kladná desetinná èísla oddìlená mezerou. Prvním èíslem je rozkládané èíslo (oznaèené v), druhá dvì jsou inicializaèní hodnoty faktorù oznaèených w a h.
+Výstupem programu jsou dvì desetinná èísla pøedstavující faktory po provedeném výpoètu a chyba faktorizace. Faktorizace se provádí následujícími vzorci:
+h = h * ((w * v) / (w * w * h))
+w = w * ((v * h) / (w * h * h))
+Chyba faktorizace se pak urèí jednoduše vynásobením faktorù w a h mezi sebou a odpoètem výsledku od faktorizovaného èísla v.
+Program detekuje chybu, zobrazí chybové hlášení dle ukázky a ukonèí se, pokud jsou na vstupu neèíselné hodnoty nebo pokud jsou hodnoty zadaných èísel v rozporu s podmínkami výše. Chybové hlášení vypisujte na standardní výstup (nevypisujte jej na standardní chybový výstup).
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

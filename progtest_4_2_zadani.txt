@@ -1,0 +1,6 @@
+Fibonacciho sekvence (cyklus 2)
+
+Realizujte program, který bude poèítat Fibonacciho èísla. Program zobrazí èást posloupnosti a vyzve uživatele, zda má pokraèovat ve výpoètu. Oèekává se, že uživatel zadá nìjaký znak a stiskne enter, pøípadnì stiskne pouze enter. Jestliže uživatel pouze stiskne enter nebo zadá jakýkoliv znak kromì n, program zobrazí další èíslo posloupnosti a èeká na volbu uživatele znovu. Pokud uživatel zadá n a enter, program se ukonèí.
+Vstupem programu jsou znaky, které uživatel bude ovládat zobrazení dalšího èísla.
+Výstupem programu jsou èísla Fibonacciho posloupnosti podle požadavkù uživatele.
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.
