@@ -1,14 +1,8 @@
-/*
-* hello.cpp
-* Ahoj Svete!
-*/
-
 #include <iostream>
 using namespace std;
 
-int main ( int argc, char * argv [] )
-{
-cout << "Hello world!\n";
+int main ( int argc, char * argv [] ){
+cout << "Hello world!" << endl;;
 
 #ifndef __PROGTEST__
   system ( "pause" ); /* toto progtest "nevidi" */
