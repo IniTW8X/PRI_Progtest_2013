@@ -1,0 +1,7 @@
+PRUNIK MNOZIN
+
+Realizujte program, který pro dvì množiny urèí jejich PRÙNIK.
+Vstupem programu je poèet prvkù množiny a prvky množiny (celá èísla).
+Výstupem programu jsou vypsané prvky prùniku zadaných dvou množin. Poøadí prvkù ve výpisu není podstatné, prvky se ale ve výpisu nesmí opakovat (jsou to množiny).
+Program detekuje chybu, zobrazí chybové hlášení dle ukázky a ukonèí se, pokud jsou na vstupu neèíselné hodnoty nebo pokud nìjaká vstupní množina obsahuje stejný prvek vícekrát (jsou to množiny!). Chybové hlášení vypisujte na standardní výstup (nevypisujte jej na standardní chybový výstup).
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.
