@@ -1,0 +1,9 @@
+Knihovnicka
+
+Realizujte program, který bude simulovat mini knihovnu o pìti knihách :).
+Vstupem programu je název knihy, pøíjmení autora, jméno autora, žánr, rok vydání, cena a id. Název knihy, pøíjmení a jméno autora a žánr knihy reprezentujte jako øetìzce (délka 29 znakù postaèuje). Rok vydání, cenu a id reprezentujte jako celá èísla. Informace o jedné knize seskupte do struktury.
+Výstupem programu jsou následující informace v poøadí dle ukázek: 
+•	vypíše názvy všech románù,
+•	vypíše názvy všech knih, které mají cenu menší než 300,- Kè,
+•	vypíše pøíjmení všech autorù.
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.
