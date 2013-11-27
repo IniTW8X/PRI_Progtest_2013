@@ -1,0 +1,9 @@
+Pacienti
+
+Realizujte program, kterı z pìti danıch pacientù vybere všechny pacienty s nemocí tbc a všechny pacienty s pojišovnou 211. Nakonec vypíše všechna pøíjmení pacientù.
+Vstupem programu jsou pøíjmení, jméno, rodné èíslo, nemoc a zdravotní pojišovna pacienta. Jméno, pøíjmení a diagnóza jsou øetìzce (max. 50 znakù), rodné èíslo a zdravotní pojišovna jsou celá èísla.
+Vıstupem programu jsou následující informace v poøadí dle ukázek: 
+•	jméno a pøíjmení pacientù s tbc,
+•	jméno a pøíjmení pacientù s pojišovnou 211,
+•	pøíjmení všech pacientù.
+Dodrte pøesnì formát všech vıpisù. Vıpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, kterı kontroluje vıpis na pøesnou shodu. Pokud se vıpis Vašeho programu liší od referenèního vıstupu, je Vaše odpovìï povaovaná za nesprávnou. Záleí i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem vıstupu (a za pøípadnım chybovım hlášením). Vyuijte pøiloenı archiv s testovacími vstupy a vıstupy a pøeètìte si sekci FAQ, jak vyuít pøesmìrování vstupù/vıstupù k testování Vašeho programu.
