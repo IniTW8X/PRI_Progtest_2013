@@ -1,0 +1,13 @@
+Obsah a obvod 2D obrazcù
+
+Realizujte program, který vypoèítá podle volby obsah a obvod rovinného obrazce.
+
+Vstupem programu je znak 'a', 'b' nebo 'c', který oznaèuje volbu uživatele - a - ètverec, b - obdélník, c - kruh, a hodnoty nutné pro výpoèet obvodu a obsahu zvoleného obrazce.
+
+Výstupem programu jsou následující informace v poøadí dle ukázek:
+
+obsah obrazce a
+obvod obrazce.
+Program detekuje chybu, zobrazí chybové hlášení dle ukázky a ukonèí se, pokud jsou na vstupu neèíselné hodnoty nebo pokud rozmìry (stran, polomìr) nejsou kladná (desetinná) èísla. Chybové hlášení vypisujte na standardní výstup (nevypisujte jej na standardní chybový výstup).
+
+Dodržte pøesnì formát všech výpisu. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu a za pøípadným chybovým hlášením. Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupu/výstupu k testování Vašeho programu.

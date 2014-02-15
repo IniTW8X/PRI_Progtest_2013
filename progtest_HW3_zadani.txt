@@ -1,0 +1,9 @@
+Souèet binárních èísel
+
+Seètìte dvì èísla a vypište jejich souèet, vše ve dvojkové soustavì.
+
+Vstupem programu jsou dvì èísla ve dvojkové soustavì, èísla jsou oddìlena bílým znakem. Pokud vstup obsahuje jiné, než dvojkové hodnoty èi oddìlovaèe, jedná se o chybu. Èísla jsou zadaná obvyklým zpùsobem zleva doprava (nejvyšší øád je vlevo).
+
+Výstupem programu je dvojkové èíslo, které je souètem vstupních hodnot. Ve výpisu potlaète nevýznamné nuly vlevo.
+
+Chybné vstupy program detekuje. reaguje na nì výpisem chybového hlášení a ukonèením.

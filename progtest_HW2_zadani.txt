@@ -1,0 +1,69 @@
+Velikonoce, velikonoce pøicházejí...
+
+Realizujte funkci easterReport, která pro zadané roky zjisti data Velikonoc. Funkce uloží výsledný den, mìsíc (v textové podobì) a rok jako øádek tabulky do výstupního HTML souboru. Funkci a veškeré pomocné funkce zdrojového souboru okomentujte pomocí nástroje Doxygen.
+
+Úkolem je realizovat funkci s následujícím rozhraním:
+
+int easterReport ( const char * years, const char * outFileName )
+years
+je vstupní parametr vaší funkce. Jedná se o øetìzec, který urèuje roky, pro které má funkce vypoèítat data Velikonoc. Roky mohou být zadané buï jednotlivì nebo jako intervaly. øetìzec mùže obsahovat více požadovaných rokù/intervalù, takové jsou oddìlené èárkou. Bílé znaky mimo letopoèty ignorujte. Každý rok musí být vetší než 1582 (pøechod na Gregoriánský kalendáø) a menší než 2200. Pokud je zadaný interval, pak poèáteèní rok intervalu musí být menší nebo roven koncovému roku intervalu. Pokud je zadaný nesprávný vstup, funkce nic nedìlá a vrací odpovídající chybový kód (viz níže).
+outFileName
+je øetìzec se jménem výstupního souboru. Jméno souboru se mùže skládat z èíslic, písmen, znakù teèka, dopøedné a zpìtné lomítko. Výstupní soubor navíc musí mít pøíponu ".html". Pokud jméno výstupního souboru nesouhlasí, funkce nic nedìlá a vrací odpovídající chybový kód (viz níže). Pokud je jméno souboru správnì, funkce do nìj vygeneruje požadovaný HTML výstup. Pro každý z rokù uvedených na vstupu funkce bude existovat jeden øádek tabulky v tomto vygenerovaném souboru.
+návratová hodnota
+návratovou hodnotou funkce je rozlišení úspìchu/neúspìchu volání. Jsou definované následující chybové kódy:
+EASTER_OK pro úspìšné dokonèení funkce.
+EASTER_INVALID_FILENAME bude vráceno, pokud jméno výstupního souboru neodpovídá kritériím výše.
+EASTER_INVALID_YEARS bude vráceno pokud vstupní øetìzec nebyl správný (obsahoval špatnì formátované roky/intervaly/neèíselné hodnoty ...).
+EASTER_IO_ERROR bude vráceno, pokud pøi zpracování výstupního souboru došlo k I/O chybì.
+Funkce nejprve kontroluje správnost jména výstupního souboru. Teprve pokud projde, kontroluje se øetìzec s roky. Tedy pokud by funkce byla zavolaná s neplatným seznamem rokù i s neplatným jménem souboru, vracela by hodnotu EASTER_INVALID_FILENAME.
+Algoritmus pro výpoèet (Meeus/Jones/Butcher algorithm): Zadaný rok z Gregoriánského kalendáøe oznaème Y. Pro výpoèet data Velikonoc je použit následující algoritmus:
+
+Y vydìlíme 19 a získáme podíl (ten ignorujeme) a zbytek po dìlení oznaèíme A. To je pozice roku v 19-letém lunárním cyklu. (A+1 je tzv. Zlaté èíslo)
+Y vydìlíme 100 a získáme podíl B a zbytek C
+B vydìlíme 4 a získáme podíl D a zbytek E
+B + 8 vydìlíme 25 a získáme podíl F
+(B - F + 1) vydìlíme 3 a získáme podíl G
+19A + B – D – G + 15 vydìlíme 30 a získáme podíl (ignorujeme) a zbytek H
+C vydìlíme 4 a získáme podíl I a zbytek K
+(32 + 2E + 2I - H - K) vydìlíme 7 a získáme podíl (ignorujeme) a zbytek L
+(A + 11H + 22L) vydìlíme 451 a získáme podíl M
+(H + L - 7M + 114) vydìlíme 31 a získáme podíl N a zbytek P.
+Velikonoèní nedìle je (P+1)-tý den a N-tý mìsíc (N=3 pro bøezen a N=4 pro duben) v roce Y.
+pozn.: Je použito celoèíselné dìlení.
+Odevzdávejte zdrojový kód obsahující Vaší implementaci požadované funkce easterReport. V odevzdávaném zdrojovém souboru musí být implementace této funkce a implementace všech Vašich dalších pomocných funkcí. Vkládání hlavièkových souborù a funkci main ponechte v bloku podmínìného pøekladu, jak je ukázáno v následující ukázce. Doporuèujeme zkopírovat si šablonu do Vašeho projektu a doplnit požadované implementace funkcí.
+
+#ifndef __PROGTEST__
+#include <cstdio>
+#include <cstdlib>
+#include <cctype>
+#include <cstring>
+#include <iostream>
+#include <iomanip>
+#include <fstream>
+#include <sstream>
+#include <string>
+using namespace std;
+
+#define EASTER_OK                0
+#define EASTER_INVALID_FILENAME  1
+#define EASTER_INVALID_YEARS     2
+#define EASTER_IO_ERROR          3
+
+
+#endif /* __PROGTEST__ */
+
+int easterReport ( const char * years, const char * outFileName )
+ {
+   /* todo */
+ }
+
+#ifndef __PROGTEST__
+int main ( int argc, char * argv[] )
+ {
+   /* tests */
+   return 0;
+ }
+#endif /* __PROGTEST__ */
+Dodržte pøesnì formát výstupního souboru i chybových hlášení Výstupní soubor musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje obsah na pøesnou shodu. Pokud se obsah Vašeho výstupního souboru liší od referenèního výstupu,je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu. Využijte pøiložený archiv obsahující požadovaný výstup pro ukázkové vstupy.
+
+Váš program bude spouštìn v omezeném testovacím prostøedí. Je omezen dobou bìhu (limit je vidìt v logu referenèního øešení) a dále je omezena i velikost dostupné pamìti (ale tato úloha by ani s jedním omezením nemìla mít problém). Testovací prostøedí dále zakazuje používat nìkteré "nebezpeèné funkce" -- funkce pro spouštìní programu, pro práci se sítí, ... Pokud jsou tyto funkce použité, program se nespustí.
