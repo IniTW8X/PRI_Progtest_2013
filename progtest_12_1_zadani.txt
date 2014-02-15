@@ -1,0 +1,13 @@
+Kosinova veta podobnosti
+
+Realizujte program, který pro dva zadané vektory spoèítá jejich podobnost pomocí kosinové podobnosti (CSM - Cosine Similarity Measure).
+
+Vstupem programu je na prvním øádku celé èíslo N udávající poèet prvkù obou vektorù. Na druhém øádku se nachází N desetinných èísel udávajících hodnoty prvního vektoru, na tøetím øádku pak N desetinných èísel udávajících hodnoty druhého vektoru.
+
+Výstupem programu je kosinus úhlu mezi vstupními vektory. Výpoèet kosinové podobnosti je snadný - oznaèíme-li si vektory v1 a v2, je podobnost dána vztahem 
+(v1 * v2) / (||v1|| * ||v2||). 
+Na konci výstupu je vždy odøádkování.
+
+Program kontroluje správnost vstupù. Poèet prvkù vektoru nesmí být záporný ani nula, ostatní parametry mohou nabývat libovolné hodnoty desetinného èísla. Je-li vstup chybný, vypíše program øetìzec "Nesprávný vstup." a ukonèí se.
+
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.

@@ -1,0 +1,15 @@
+Lokalizace robota
+
+Realizujte program, který simuluje pohyb robota výpoètem souøadnic, na kterých se robot bude v každém kroku nacházet, a úhlu, v jakém robot bude natoèen.
+
+Vstupem programu je nìkolik parametrù. Prvním z nich je kladné celé èíslo na prvním øádku oznaèující poèet iterací, kolikrát se provede výpoèet souøadnic a úhlu. Na druhém øádku je pak 6 desetinných èísel udávající v tomto poøadí následující parametry: poèáteèní souøadnice x, poèáteèní souøadnice y, poèáteèní natoèení (úhel) robota fi, èasový rozdíl mezi jednotlivými kroky výpoètu delta, rychlost pohybu v a úhel, o který se robot natoèí po jednom kroku omega.
+
+Výstupem programu jsou informace o tom, na jakých souøadnicích a s jakým natoèením se robot nachází po každém kroku. Formát výstupu viz. ukázky. Vzorce pro výpoèet nových parametrù v každém kroku jsou tyto: 
+x' = x + v * delta * cos(fi), 
+y' = y + v * delta * sin(fi), 
+fi' = fi + delta * omega. 
+Parametry s èárkou oznaèují nové hodnoty. Po skonèení každého kroku (iterace) se nové hodnoty stávají hodnotami výchozími pro další výpoèet (tj. hodnoty bez èárky). Vyjde-li úhel fi' mimo interval 0 až 2*?, pøiètìte/odeètìte periodu 2*? tak, aby se do tohoto intervalu vešel. Pracujte s konstantou M_PI z matematické knihovny. Za každým zobrazeným øádkem je znak odøádkování (\n).
+
+Program kontroluje správnost vstupù. Poèet iterací nesmí být záporný ani nula, ostatní parametry mohou nabývat libovolné hodnoty desetinného èísla. Je-li vstup chybný, vypíše program øetìzec "Nesprávný vstup." a ukonèí se.
+
+Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, který kontroluje výpis na pøesnou shodu. Pokud se výpis Vašeho programu liší od referenèního výstupu, je Vaše odpovìï považovaná za nesprávnou. Záleží i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem výstupu (a za pøípadným chybovým hlášením). Využijte pøiložený archiv s testovacími vstupy a výstupy a pøeètìte si sekci FAQ, jak využít pøesmìrování vstupù/výstupù k testování Vašeho programu.
